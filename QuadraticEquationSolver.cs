@@ -11,7 +11,7 @@ public class QuadraticEquationSolver
       this.quadraticDataGetter = dataGetter;
    }
    
-   public float Solve(float a, float b, float c)
+   public float Solve()
    {
       QuadraticEquation quadraticEquation = this.quadraticDataGetter.getData();
       return 0;

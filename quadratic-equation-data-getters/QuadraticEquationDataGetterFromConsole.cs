@@ -4,6 +4,6 @@ public class QuadraticEquationDataGetterFromConsole: IQuadraticEquationDataGette
 {
     public QuadraticEquation getData()
     {
-        return null;
+        return new QuadraticEquation(1,10,10);
     }
 }

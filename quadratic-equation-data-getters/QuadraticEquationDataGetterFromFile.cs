@@ -1,6 +1,6 @@
 namespace Lab1.quadratic_equation_data_getters;
 
-public class QuadraticEquationDataGetterFromConsole: IQuadraticEquationDataGetter
+public class QuadraticEquationDataGetterFromFile
 {
     public QuadraticEquation getData()
     {

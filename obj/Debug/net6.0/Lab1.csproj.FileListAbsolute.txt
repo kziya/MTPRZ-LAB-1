@@ -1,0 +1,15 @@
+/home/ziya/Documents/Univer/Course 2/2-half/MTPRZ/Labs/Lab1/Lab1/bin/Debug/net6.0/Lab1
+/home/ziya/Documents/Univer/Course 2/2-half/MTPRZ/Labs/Lab1/Lab1/bin/Debug/net6.0/Lab1.deps.json
+/home/ziya/Documents/Univer/Course 2/2-half/MTPRZ/Labs/Lab1/Lab1/bin/Debug/net6.0/Lab1.runtimeconfig.json
+/home/ziya/Documents/Univer/Course 2/2-half/MTPRZ/Labs/Lab1/Lab1/bin/Debug/net6.0/Lab1.dll
+/home/ziya/Documents/Univer/Course 2/2-half/MTPRZ/Labs/Lab1/Lab1/bin/Debug/net6.0/ref/Lab1.dll
+/home/ziya/Documents/Univer/Course 2/2-half/MTPRZ/Labs/Lab1/Lab1/bin/Debug/net6.0/Lab1.pdb
+/home/ziya/Documents/Univer/Course 2/2-half/MTPRZ/Labs/Lab1/Lab1/obj/Debug/net6.0/Lab1.csproj.AssemblyReference.cache
+/home/ziya/Documents/Univer/Course 2/2-half/MTPRZ/Labs/Lab1/Lab1/obj/Debug/net6.0/Lab1.GeneratedMSBuildEditorConfig.editorconfig
+/home/ziya/Documents/Univer/Course 2/2-half/MTPRZ/Labs/Lab1/Lab1/obj/Debug/net6.0/Lab1.AssemblyInfoInputs.cache
+/home/ziya/Documents/Univer/Course 2/2-half/MTPRZ/Labs/Lab1/Lab1/obj/Debug/net6.0/Lab1.AssemblyInfo.cs
+/home/ziya/Documents/Univer/Course 2/2-half/MTPRZ/Labs/Lab1/Lab1/obj/Debug/net6.0/Lab1.csproj.CoreCompileInputs.cache
+/home/ziya/Documents/Univer/Course 2/2-half/MTPRZ/Labs/Lab1/Lab1/obj/Debug/net6.0/Lab1.dll
+/home/ziya/Documents/Univer/Course 2/2-half/MTPRZ/Labs/Lab1/Lab1/obj/Debug/net6.0/ref/Lab1.dll
+/home/ziya/Documents/Univer/Course 2/2-half/MTPRZ/Labs/Lab1/Lab1/obj/Debug/net6.0/Lab1.pdb
+/home/ziya/Documents/Univer/Course 2/2-half/MTPRZ/Labs/Lab1/Lab1/obj/Debug/net6.0/Lab1.genruntimeconfig.cache

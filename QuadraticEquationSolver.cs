@@ -1,19 +1,9 @@
-using Lab1.quadratic_equation_data_getters;
-
 namespace Lab1;
 
 public class QuadraticEquationSolver
 {
-   private IQuadraticEquationDataGetter quadraticDataGetter;
-
-   public QuadraticEquationSolver(IQuadraticEquationDataGetter dataGetter)
+   public object Solve(QuadraticEquation quadraticEquation)
    {
-      this.quadraticDataGetter = dataGetter;
-   }
-   
-   public float Solve()
-   {
-      QuadraticEquation quadraticEquation = this.quadraticDataGetter.getData();
-      return 0;
+      return null;
    }
 }

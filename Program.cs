@@ -1,14 +1,17 @@
 ﻿using Lab1;
 using Lab1.quadratic_equation_data_getters;
 
+IQuadraticEquationDataGetter quadraticEquationDataGetter;
 if (args.Length > 0)
 {
-    QuadraticEquationSolver quadraticEquationSolver =
-        new QuadraticEquationSolver(new QuadraticEquationDataGetterFromFile());
+    quadraticEquationDataGetter = new QuadraticEquationDataGetterFromFile();
+
 }
 else
 {
-    QuadraticEquationSolver quadraticEquationSolver =
-        new QuadraticEquationSolver(new QuadraticEquationDataGetterFromFile());
-    quadraticEquationSolver.Solve();
+    quadraticEquationDataGetter = new QuadraticEquationDataGetterFromConsole();
 }
+
+QuadraticEquation quadraticEquation =  quadraticEquationDataGetter.getData();
+QuadraticEquationSolver quadraticEquationSolver = new QuadraticEquationSolver();
+quadraticEquationSolver.Solve(quadraticEquation);

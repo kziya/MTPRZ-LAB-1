@@ -6,15 +6,8 @@ public class QuadraticEquationSolver
    {
       float a = quadraticEquation.a, b = quadraticEquation.b, c = quadraticEquation.c;
       float d = b * b - (4 * a * c);
-      if (d < 0)
-      {
-         return new QuadraticEquationResult("No result 1");
-      }
-      else
-      {
-         
-      }
 
+      if (d < 0) return new QuadraticEquationResult("No result !");
       return new QuadraticEquationResult(1, 2);
    }
 }

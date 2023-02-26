@@ -5,7 +5,7 @@ namespace Lab1;
 public class QuadraticEquationResult
 {
     private float x1, x2;
-    private string message;
+    private string message = null;
     
     public QuadraticEquationResult(float x1, float x2)
     {

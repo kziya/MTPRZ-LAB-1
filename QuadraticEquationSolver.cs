@@ -8,6 +8,8 @@ public class QuadraticEquationSolver
       float d = b * b - (4 * a * c);
 
       if (d < 0) return new QuadraticEquationResult("No result !");
-      return new QuadraticEquationResult(1, 2);
+      double x1 = (-b + Math.Pow(d, 0.5)) / (2 * a);
+      double x2 = (-b - Math.Pow(d, 0.5)) / (2 * a);
+      return new QuadraticEquationResult((float)x1, (float)x2);
    }
 }

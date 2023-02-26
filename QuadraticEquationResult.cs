@@ -21,6 +21,6 @@ public class QuadraticEquationResult
     public void printResult()
     {
         if(this.message != null) Console.WriteLine(this.message);
-        Console.WriteLine($"X1: {x1.ToString()}\nX2: {x2.ToString()}");
+        else Console.WriteLine($"X1: {x1.ToString()}\nX2: {x2.ToString()}");
     }
 }

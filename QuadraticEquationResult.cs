@@ -20,7 +20,19 @@ public class QuadraticEquationResult
 
     public void printResult()
     {
-        if(this.message != null) Console.WriteLine(this.message);
-        else Console.WriteLine($"X1: {x1.ToString()}\nX2: {x2.ToString()}");
+        if (this.message != null)
+        {
+            Console.WriteLine(this.message);
+            return;
+        }
+
+        if (this.x1 == this.x2)
+        {
+            Console.WriteLine("There are 1 roots: ");
+            Console.WriteLine($"X1: { x1 .ToString() }");
+            return;
+        }
+        Console.WriteLine("There are 2 roots: ");
+        Console.WriteLine($"X1: {x1.ToString()}\nX2: {x2.ToString()}");
     }
 }

@@ -19,4 +19,4 @@
 - <pre>1s<br>2df<br>3as</pre>
 - <pre>a<br>b<br>c</pre>
 ### Revert commit URL
-[URL](https://github.com/kziya/MTPRZ-LAB-1/commit/04bb64167aadc7b325d5e3385ce782ac563f5f8b)
+[Revert commit](https://github.com/kziya/MTPRZ-LAB-1/commit/04bb64167aadc7b325d5e3385ce782ac563f5f8b)

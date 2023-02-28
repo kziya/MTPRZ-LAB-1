@@ -4,7 +4,7 @@ namespace Lab1.quadratic_equation_data_getters;
 
 public class QuadraticEquationDataGetterFromConsole: IQuadraticEquationDataGetter
 {
-    public QuadraticEquation getData()
+    public QuadraticEquation getData(string filePath = "")
     {
         bool isA = false, isB = false, isC = false;
         float a = 0, b = 0, c = 0;

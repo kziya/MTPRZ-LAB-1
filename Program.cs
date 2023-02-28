@@ -8,6 +8,6 @@ IQuadraticEquationDataGetter quadraticEquationDataGetter;
 if (args.Length > 0) quadraticEquationDataGetter = new QuadraticEquationDataGetterFromFile();
 else quadraticEquationDataGetter = new QuadraticEquationDataGetterFromConsole();
 
-QuadraticEquation quadraticEquation =  quadraticEquationDataGetter.getData(args[0]);
+QuadraticEquation quadraticEquation =  quadraticEquationDataGetter.getData(args.Length > 0 ? args[0] : null);
 QuadraticEquationResult res = quadraticEquationSolver.Solve(quadraticEquation);
 res.printResult();

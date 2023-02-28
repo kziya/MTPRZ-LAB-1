@@ -2,6 +2,7 @@
 using Lab1.quadratic_equation_data_getters;
 
 
+QuadraticEquationSolver quadraticEquationSolver = new QuadraticEquationSolver();
 IQuadraticEquationDataGetter quadraticEquationDataGetter;
 
 if (args.Length > 0) quadraticEquationDataGetter = new QuadraticEquationDataGetterFromFile();

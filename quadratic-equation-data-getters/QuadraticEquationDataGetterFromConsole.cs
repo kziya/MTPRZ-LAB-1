@@ -6,13 +6,35 @@ public class QuadraticEquationDataGetterFromConsole: IQuadraticEquationDataGette
 {
     public QuadraticEquation getData()
     {
-        float a, b, c;
-        Console.Write("A: "); 
-        a = float.Parse(Console.ReadLine());
-        Console.Write("B: ");
-        b = float.Parse(Console.ReadLine());
-        Console.Write("C: ");
-        c = float.Parse(Console.ReadLine());        
+        bool isA = false, isB = false, isC = false;
+        float a = 0, b = 0, c = 0;
+        
+        while (isA == false || a == 0 || float.IsNaN(a))
+        {
+            Console.Write("A: ");
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
+            float.TryParse(Console.ReadLine(), out a);
+            isA = true;
+            Console.ResetColor();
+        }
+        
+        while (isB == false ||  float.IsNaN(b))
+        {
+            Console.Write("B: ");
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
+            float.TryParse(Console.ReadLine(), out b);
+            isB = true;
+            Console.ResetColor();
+        }
+
+        while (isC == false || float.IsNaN(c))
+        {
+            Console.Write("C: ");
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
+            float.TryParse(Console.ReadLine(),out  c);
+            isC = true;
+            Console.ResetColor();
+        }
         
         return new QuadraticEquation(a,b,c);
     }

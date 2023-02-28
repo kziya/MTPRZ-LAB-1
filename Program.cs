@@ -10,5 +10,6 @@ else quadraticEquationDataGetter = new QuadraticEquationDataGetterFromConsole();
 
 QuadraticEquation quadraticEquation =  quadraticEquationDataGetter.getData(args.Length > 0 ? args[0] : null);
 if (quadraticEquation == null) return;
+quadraticEquation.printEquation();
 QuadraticEquationResult res = quadraticEquationSolver.Solve(quadraticEquation);
 res.printResult();

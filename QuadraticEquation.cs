@@ -10,4 +10,9 @@ public class QuadraticEquation
         this.b = b;
         this.c = c;
     }
+
+    public void printEquation()
+    {
+        Console.WriteLine($"({this.a}) x^2 + ({ this.b })x + ({this.c}) = 0");
+    }
 }
